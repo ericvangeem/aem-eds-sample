@@ -306,11 +306,25 @@
     "id": "accordion",
     "fields": [
       {
-        "component": "text",
-        "valueType": "number",
-        "name": "rows",
-        "value": "",
-        "label": "Rows"
+        "component": "accordion",
+        "label": "Accordion",
+        "name": "accordion",
+        "valueType": "string",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "richtext",
+            "label": "Panel Title",
+            "name": "panelTitle",
+            "valueType": "string"
+          },
+          {
+            "component": "richtext",
+            "label": "Panel Body",
+            "name": "panelBody",
+            "valueType": "string"
+          }
+        ]
       }
     ]
   }
