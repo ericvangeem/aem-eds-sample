@@ -284,7 +284,7 @@
     ]
   },
   {
-    "id": "quotev2",
+    "id": "testquote",
     "fields": [
       {
         "component": "richtext",
