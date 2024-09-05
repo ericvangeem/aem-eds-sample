@@ -313,13 +313,13 @@
         "collapsible": true,
         "fields": [
           {
-            "component": "richtext",
+            "component": "text-input",
             "label": "Panel Title",
             "name": "panelTitle",
             "valueType": "string"
           },
           {
-            "component": "richtext",
+            "component": "text-input",
             "label": "Panel Body",
             "name": "panelBody",
             "valueType": "string"
