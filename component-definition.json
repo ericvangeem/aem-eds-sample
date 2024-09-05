@@ -168,6 +168,23 @@
               }
             }
           }
+        },
+        {
+          "title": "Quote (v2)",
+          "id": "quotev2",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Quote (v2)",
+                  "model": "quotev2",
+                  "quote": "<p>Well done is better than well said.</p>",
+                  "author": "Benjamin Franklin"
+                }
+              }
+            }
+          }
         }
       ]
     }
