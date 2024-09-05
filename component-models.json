@@ -306,7 +306,7 @@
     "id": "accordion",
     "fields": [
       {
-        "component": "accordion",
+        "component": "container",
         "label": "Accordion",
         "name": "accordion",
         "valueType": "string",
