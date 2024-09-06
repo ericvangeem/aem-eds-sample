@@ -117,7 +117,18 @@
                   "name": "Cards",
                   "filter": "cards",
                   "model": "cards",
-                  "text": "<p>These are the cards</p>"
+                  "item_0": {
+                    "model": "card",
+                    "name": "Card",
+                    "image": "/content/dam/eric-eds-sample/low-code-way-to-developer-productivity.png",
+                    "text": "<h4>Card Title 1</h4> <p>This is a card description!</p>"
+                  },
+                  "item_1": {
+                    "model": "card",
+                    "name": "Card",
+                    "image": "/content/dam/eric-eds-sample/unmatched-speed.png",
+                    "text": "<h4>Card Title 2</h4> <p>This is another card description!</p>"
+                  }
                 }
               }
             }
