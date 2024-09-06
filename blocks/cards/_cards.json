@@ -9,7 +9,20 @@
             "resourceType": "core/franklin/components/block/v1/block",
             "template": {
               "name": "Cards",
-              "filter": "cards"
+              "filter": "cards",
+              "model": "cards",
+              "item_0": {
+                "model": "card",
+                "name": "Card",
+                "image": "/content/dam/eric-eds-sample/low-code-way-to-developer-productivity.png",
+                "text": "<h4>Card Title 1</h4> <p>This is a card description!</p>"
+              },
+              "item_1": {
+                "model": "card",
+                "name": "Card",
+                "image": "/content/dam/eric-eds-sample/unmatched-speed.png",
+                "text": "<h4>Card Title 2</h4> <p>This is another card description!</p>"
+              }
             }
           }
         }
@@ -33,6 +46,18 @@
   ],
   "models": [
     {
+      "id": "cards",
+      "fields": [
+        {
+          "component": "richtext",
+          "name": "text",
+          "value": "",
+          "label": "Cards Container Text",
+          "valueType": "string"
+        }
+      ]
+    },
+    {
       "id": "card",
       "fields": [
         {
@@ -52,5 +77,12 @@
       ]
     }
   ],
-  "filters": []
+  "filters": [
+    {
+      "id": "cards",
+      "components": [
+        "card"
+      ]
+    }
+  ]
 }
