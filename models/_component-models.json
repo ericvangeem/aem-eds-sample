@@ -12,6 +12,9 @@
     "...": "./_button.json#/models"
   },
   {
+    "...": "./_page.json#/models"
+  },
+  {
     "...": "./_section.json#/models"
   },
   {
