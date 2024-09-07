@@ -7,7 +7,7 @@
                 {
                     "component": "date-time",
                     "name": "publicationDate",
-                    "label": "Publiction Date 1"
+                    "label": "Publiction Date"
                 }
             ]
         }
