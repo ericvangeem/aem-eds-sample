@@ -1,7 +1,7 @@
 {
   "definitions": [
     {
-      "title": "Image",
+      "title": "Image1",
       "id": "image",
       "plugins": {
         "xwalk": {
