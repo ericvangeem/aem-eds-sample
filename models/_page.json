@@ -1,0 +1,28 @@
+{
+    "definitions": [
+        {
+            "title": "Image",
+            "id": "image",
+            "plugins": {
+                "xwalk": {
+                    "page": {
+                        "resourceType": "core/franklin/components/image/v1/image",
+                        "template": {}
+                    }
+                }
+            }
+        }
+    ],
+    "models": [
+        {
+            "id": "page-metadata",
+            "fields": [
+                {
+                    "component": "date-time",
+                    "name": "publicationDate",
+                    "label": "Publiction Date"
+                }
+            ]
+        }
+    ]
+}
