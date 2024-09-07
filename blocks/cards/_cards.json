@@ -82,7 +82,8 @@
       "id": "cards",
       "components": [
         "card",
-        "quote"
+        "quote",
+        "columns"
       ]
     }
   ]

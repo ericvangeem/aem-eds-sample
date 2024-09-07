@@ -23,7 +23,8 @@
     "id": "cards",
     "components": [
       "card",
-      "quote"
+      "quote",
+      "columns"
     ]
   },
   {
@@ -39,6 +40,12 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "cards",
+    "components": [
+      "card"
     ]
   }
 ]
