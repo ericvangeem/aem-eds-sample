@@ -81,7 +81,8 @@
     {
       "id": "cards",
       "components": [
-        "card"
+        "card",
+        "quote"
       ]
     }
   ]
