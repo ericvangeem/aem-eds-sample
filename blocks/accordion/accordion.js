@@ -16,6 +16,14 @@ export default function decorate(block) {
         // decorate accordion item body
         const body = row.children[1];
         body.className = 'accordion-item-body';
+
+        // move image to the top of the accordion item
+        const img = row.children[2];
+        if (img) {
+            img.className = 'accordion-item-image';
+            body.prepend(img);
+        }
+
         // decorate accordion item
         const details = document.createElement('details');
         moveInstrumentation(row, details);
