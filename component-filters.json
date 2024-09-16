@@ -17,7 +17,14 @@
       "columns",
       "fragment",
       "quote",
-      "bio"
+      "bio",
+      "accordion"
+    ]
+  },
+  {
+    "id": "accordion",
+    "components": [
+      "accordion-item"
     ]
   },
   {
