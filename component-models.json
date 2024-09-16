@@ -358,8 +358,7 @@
         "name": "text",
         "value": "",
         "label": "Description",
-        "valueType": "string",
-        "multi": true
+        "valueType": "string"
       }
     ]
   }
