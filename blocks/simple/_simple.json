@@ -1,0 +1,36 @@
+{
+  "definitions": [
+    {
+      "title": "Simple",
+      "id": "simple",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Simple",
+              "model": "simple",
+              "text": "<p>Eric Van Geem, a distinguished CMS consultant, wrote this article.</p>"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "simple",
+      "fields": [
+        {
+          "component": "richtext",
+          "name": "text",
+          "value": "",
+          "label": "Description",
+          "valueType": "string",
+          "multi": true
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

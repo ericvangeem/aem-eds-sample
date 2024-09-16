@@ -349,5 +349,18 @@
         "variationName": "experienceFragmentVariation"
       }
     ]
+  },
+  {
+    "id": "simple",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Description",
+        "valueType": "string",
+        "multi": true
+      }
+    ]
   }
 ]
