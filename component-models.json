@@ -414,6 +414,56 @@
     ]
   },
   {
+    "id": "new-block",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Styles",
+        "description": "Select zero to many styles",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Highlighted",
+            "value": "highlighted"
+          },
+          {
+            "name": "Shadow",
+            "value": "shadow"
+          },
+          {
+            "name": "Hide Author",
+            "value": "hide-author"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "new-block-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {

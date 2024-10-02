@@ -47,7 +47,8 @@
         "fragment",
         "quote",
         "bio",
-        "media-text"
+        "media-text",
+        "new-block"
       ]
     }
   ]
